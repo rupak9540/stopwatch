@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- starting of container  -->
+    <div id="container">
+        <!-- starting the time span -->
+        <div id="time">
+            <!-- time span of hours -->
+            <span class = "time-span" id = "hours">00</span>
+            <span class = "time-span" >:</span>
+            <!-- time span of min -->
+            <span class = "time-span" id = "minute"> 00</span>
+            <span class = "time-span" >:</span>
+            <!-- time span of sec -->
+            <span class = "time-span" id = "second">00</span>
+            <span class = "time-span" >.</span>
+            <span class = "time-span" id = "count">00</span>
+
+        </div>
+        <!-- Ending the time span -->
+        <!-- staring the button container -->
+        <div id="btn-container">
+            <!-- start button -->
+            <button class="btn" id="start" onclick="start()">Start</button>
+            <!-- stop button -->
+            <button class="btn" id="stop" onclick="stop()">Stop</button>
+            <!-- reset button -->
+            <button class="btn" id="reset" onclick="reset()">Reset</button>
+
+        </div>
+        <!-- ending the button container -->
+    </div>
+    <!-- ending the main container -->
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

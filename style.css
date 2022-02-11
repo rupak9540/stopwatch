@@ -1,0 +1,41 @@
+/* body */
+body{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     height: 80vh;
+}
+
+/* timer of stopwatch */
+.time-span{
+    font-size: 4rem;
+    margin: 0.1rem;
+    font-weight: bold;
+}
+
+/* button  */
+#btn-container{
+    text-align: center;
+    margin-top: 40px;
+}
+.btn{
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    margin: 0px 10px;
+    cursor: pointer;
+    outline: none;
+    border: 0px;
+    border-radius: 10px;
+    align-items: center;
+}
+#start{
+    background-color: rgb(175, 224, 175);
+}
+#stop{
+    background-color: rgb(71, 71, 153);
+}
+#reset{
+    background-color: rgb(129, 76, 76);
+}
